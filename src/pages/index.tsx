@@ -1,7 +1,7 @@
 export default function Home() {
   return (
     <div>
-      <h1>PokeNext</h1>
+      <h1>PokeNext X</h1>
     </div>
   );
 }
