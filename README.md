@@ -1,36 +1,42 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Pokemóns
+Este é um projeto desenvolvido usando [Next.js](https://nextjs.org/) com [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+## Visão Geral
+Essa é uma aplicação pessoal baseada em um curso de NextJS ministrado pelo professor Matheus Battisti.
 
-First, run the development server:
+## Tecnologias Utilizadas
+- NextJS;
+- Typescript;
+- HTML5
+- CSS
+- Fetch
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Funcionalidades
+1. **Página Home:** Apresentação inicial de cards de Pokemons (Limitados em 250) com dados vindas de uma Api externa.
+2. **Página About:** Uma página bem simples com um Lorem Ipsum e uma Imagem, servindo mais para aprendizado de rotas.
+3. **Página de Produto:** Ao se clicar no botão de um dos cards, ele leva para uma página com mais detalhes do pokemon selecionado.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Melhorias Previstas
+1. **Testes:** Adição de testes unitários e integração.
+2. **Responsividade:**
+3. **Páginação**
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Instalação e Uso
+1. **Clone o Repositório**
+   https://github.com/santanawesley/nextjs_pokemon.git
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+2. Acesse o Diretório
+  cd nextjs_pokemon
 
-## Learn More
+3. Instale as Dependências
+  npm install (ou yarn, se preferir)
 
-To learn more about Next.js, take a look at the following resources:
+4. Inicie o Servidor de Desenvolvimento
+  npm run dev <br/>
+  O servidor rodará em http://localhost:3000
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Aplicação em produção
+Aplicação hospedada em (Vercel): https://nextjs-pokemon-psi.vercel.app/
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Autor
+Wesley R. de Santana - wesley0807@gmail.com
