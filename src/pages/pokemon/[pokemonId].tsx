@@ -4,6 +4,22 @@ import IPokemon from "@/types";
 
 import styles from "../../styles/Pokemon.module.css";
 
+type PokemonTypes = {
+  type: { name: string };
+};
+
+type PokemonDetails = {
+  height: number;
+  id: number;
+  name: string;
+  types: PokemonTypes[];
+  weight: number;
+};
+
+type PokemonProps = {
+  pokemon: PokemonDetails;
+};
+
 export const getStaticPaths = async () => {
   const maxPokemons = 251;
   const api = "https://pokeapi.co/api/v2/pokemon/";
@@ -36,7 +52,7 @@ export const getStaticProps: GetStaticProps = async (
   };
 };
 
-export default function Pokemon({ pokemon }: any) {
+export default function Pokemon({ pokemon }: PokemonProps) {
   return (
     <div className={styles.pokemon_container}>
       <h1 className={styles.pokemon_title}>{pokemon?.name}</h1>
@@ -53,7 +69,7 @@ export default function Pokemon({ pokemon }: any) {
       <div>
         <h3>Tipo:</h3>
         <div className={styles.types_container}>
-          {pokemon.types.map((item: any, index: number) => (
+          {pokemon.types.map((item, index) => (
             <span
               key={index}
               className={`${styles.type} ${styles["type_" + item.type.name]}`}
