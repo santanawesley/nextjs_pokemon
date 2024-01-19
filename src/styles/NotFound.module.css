@@ -1,0 +1,25 @@
+.not_found {
+  font-size: 1.5em;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  flex-direction: column;
+  margin: 100px 20px 20px;
+}
+
+
+.not_found .btn {
+  text-decoration: none;
+  background-color: #FFF;
+  color: #222;
+  padding: 0.3em;
+  margin-top: 15px;
+  border-radius: 5px;
+  font-weight: bold;
+  transform: 0.4s;
+}
+
+.not_found .btn:hover {
+  background-color: #E33D33;
+  color: #FFF;
+}
