@@ -8,9 +8,9 @@
   width: 23%;
   border-radius: 1em;
   border: 2px solid #E33D33;
-  box-shadow: 5px 5px 12px rgba(0, 0, 0, .5);
+  box-shadow: 5px 5px 12px rgba(0, 0, 0, 0.5);
   background-color: #333;
-  color: #fff;
+  color: #FFF;
 }
 
 .card_pokemon .card_id {
@@ -18,7 +18,7 @@
   background-color: #E33D33;
   border-radius: 5px;
   padding: 5px;
-  color: #fff;
+  color: #FFF;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -32,15 +32,15 @@
 
 .card_pokemon .card_btn {
   text-decoration: none;
-  background-color: #fff;
+  background-color: #FFF;
   color: #222;
-  padding: .7em 1.2em;
+  padding: 0.7em 1.2em;
   border-radius: 5px;
   font-weight: bold;
-  transform: .4s;
+  transform: 0.4s;
 }
 
 .card_pokemon .card_btn:hover {
   background-color: #E33D33;
-  color: #fff;
+  color: #FFF;
 }
