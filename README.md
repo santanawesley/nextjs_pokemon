@@ -1,10 +1,10 @@
-# Pokemóns
+# Pokémons
 
 Este é um projeto desenvolvido usando [Next.js](https://nextjs.org/) com [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Visão Geral
 
-Essa é uma aplicação pessoal baseada em um curso de NextJS ministrado pelo professor Matheus Battisti.
+Essa é uma aplicação pessoal mais básica, com foco na aplicação do Next, baseada em um curso de NextJS ministrado pelo professor Matheus Battisti.
 
 ## Tecnologias Utilizadas
 
@@ -16,9 +16,10 @@ Essa é uma aplicação pessoal baseada em um curso de NextJS ministrado pelo pr
 
 ## Funcionalidades
 
-1. **Página Home:** Apresentação inicial de cards de Pokemons (renderização inicial limitada em 250) com dados vindas de uma Api externa.
+1. **Página Home:** Apresentação inicial de cards de Pokémons (renderização inicial limitada em 250) com dados vindas de uma Api externa: https://pokeapi.co/api/v2/pokemon/.
 2. **Página About:** Uma página bem simples com um Lorem Ipsum e uma Imagem, servindo mais para aprendizado de rotas.
-3. **Página de Produto:** Ao se clicar no botão de um dos cards, ele leva para uma página com mais detalhes do pokemon selecionado.
+3. **Página de Produto:** Ao se clicar no botão de um dos cards, ele leva para uma página com mais detalhes do pokémon selecionado.
+4. **Página 404:** Personalização da página de erro 404.
 
 ## Melhorias Previstas
 
